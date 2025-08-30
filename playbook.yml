@@ -1,0 +1,5 @@
+- name: Update web server configuration and restart service
+  hosts: all
+  become: true
+  roles:
+    - test
